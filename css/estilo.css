@@ -6,7 +6,7 @@
     --bgnews: #1e1c21;
     --red: #C20000;
     --blue: #001f70;
-    --gradient: linear-gradient(180deg, rgba(83, 83, 83, 0.05) 0%, #000000 100%);
+    --gradient: linear-gradient #521E5F;
 
     --font: "Titillium Web";
 }
@@ -313,7 +313,7 @@ img{
 .next-games-bg{
     width: 90%;
     height: auto;
-    background: var(--gradient);
+    background-color: #300d38b0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -407,69 +407,16 @@ img{
 }
 /* De 992px Até 1199px */
 @media screen and (max-width: 74.93em){
-    .header-top{
-        width: auto;
-       
-    }
-    .content-flex-spbt-center{
-        justify-content: space-around;
-    }
     
-    }
-    .menu{
-        font-size: 1.0em;
-        margin-bottom: 0;
-        
-        
-    }
-    .news{
-        width: 80%;
-    }
-    .not{
-        /* background-color: #fff; */
-         width: 30%;
-         margin-left: 30px;
-    }
-    
-    .banner-text a{
-        font-size: 20px;
-        margin-bottom: 2.5em;
-    }
-    .games ul a:hover img{
-        transform: scale(1.1);
-    }
-    .content-news{
-        justify-content: space-around;
-    }
-    
-       
-}
-
 /* De 768px Até 991px */
 @media screen and (max-width: 61.93em){
-    
-    
-     
-     .banner-text p{
-         display: none;
-     }
-     .banner-text a{
-         font-size: 20px;
-     }
 
 }
 
 /* De 576px Até 767px */
 @media screen and (max-width: 47.93em){
     
-    #menu-bars{
-        display: flex;
-       
-    }
-    
-    .banner-text a{
-        font-size: 15px;
-    }
+   
 }
 
 /* De 421px Até 576px */
